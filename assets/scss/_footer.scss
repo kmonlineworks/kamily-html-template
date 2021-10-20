@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+	background: linear-gradient($secondColor, rgba($secondColor, 0.9));
+	font-size: 14px;
+	text-align: center;
+	padding: 60px 0 40px 0;
+}
+
+#footer h3 {
+	color: $firstColor;
+	font-size: 36px;
+	font-weight: 700;
+	position: relative;
+	font-family: 'optima', sans-serif;
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+
+#footer p {
+	color: $forthColor;
+	font-size: 15;
+	font-style: italic;
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+	margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+	font-size: 18px;
+	display: inline-block;
+	background: $firstColor;
+	color: $forthColor;
+	line-height: 1;
+	padding: 8px 0;
+	margin-right: 4px;
+	border-radius: 50%;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+	background: $forthColor;
+	color: $firstColor;
+	text-decoration: none;
+	box-shadow: 0 0 5px rgba($forthColor, 0.2);
+}
+
+#footer .copyright {
+	color: $forthColor;
+	margin: 0 0 5px 0;
+}
+
+#footer .credits {
+	color: $forthColor;
+	font-size: 13px;
+}
+
+#footer .credits a {
+	color: $firstColor;
+	font-size: 13px;
+}

@@ -1,0 +1,42 @@
+.faq {
+	padding: 80px 0;
+	position: relative;
+}
+.faq h3 {
+	margin-bottom: 30px;
+}
+.faq .card {
+	border: none;
+	border-radius: 20px;
+}
+.faq .card-header {
+	color: $forthColor;
+	background-color: $firstColor;
+	border: 0;
+	box-shadow: none;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba($fifthColor, 0.1);
+	padding: 1rem 1.7rem;
+	text-align: left;
+}
+.faq .card-header button {
+	color: $forthColor;
+	text-decoration: none;
+}
+.faq .background {
+	width: 100%;
+	height: 100%;
+	padding: 30px 0;
+	position: relative;
+}
+.faq .background img {
+	width: 60%;
+	height: 100%;
+	object-fit: contain;
+	opacity: 0.2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

@@ -1,0 +1,113 @@
+@font-face {
+	font-family: 'optima';
+	src: url('../fonts/optima.woff') format('woff'); /* IE9 Compat Modes */
+	src: url('../fonts/Optima_Medium.woff') format('woff'); /* Safari, Android, iOS */
+}
+* {
+	font-family: 'optima', sans-serif;
+	box-sizing: border-box;
+}
+body,
+html {
+	scroll-behavior: smooth;
+	letter-spacing: 0.6px;
+	line-height: 26px;
+}
+p,
+a,
+ul li {
+	color: rgba($fifthColor, 0.7);
+	font-size: 16px;
+}
+.heading {
+	position: relative;
+}
+.heading .circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: $secondColor;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.heading .circle.first {
+	background-color: $firstColor;
+}
+.heading .circle.forth {
+	background-color: $forthColor;
+}
+.heading h2 {
+	color: $firstColor;
+	position: absolute;
+	top: 8px;
+	left: 22px;
+	letter-spacing: 1.1px;
+	margin: 0;
+	z-index: 2;
+	white-space: nowrap;
+}
+.heading h2.forth {
+	color: $forthColor;
+}
+
+#animationBox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 1;
+}
+#animationBox span {
+	position: absolute;
+	z-index: 1;
+	filter: blur(0.5px);
+}
+#animationBox span:nth-child(1n + 0) {
+	animation: animate 2.4s linear 1s infinite alternate;
+}
+#animationBox span:nth-child(2n + 0) {
+	animation: animate 2.3s linear 1s infinite alternate;
+}
+#animationBox span:nth-child(3n + 0) {
+	animation: animate 2.5s ease-in-out 1s infinite alternate;
+}
+#animationBox span:nth-child(3n + 2) {
+	animation: animateTwo 2.2s linear 1s infinite reverse;
+}
+#animationBox span:nth-child(2n + 2) {
+	animation: animateTwo 2.5s linear 1s infinite alternate;
+}
+@keyframes animate {
+	0% {
+		transform: scale(0);
+		opacity: 0.5;
+		transform: perspective(200px) translate(0%, 0%);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+		transform: perspective(200px) translate(100%, 100%);
+	}
+}
+@keyframes animateTwo {
+	0% {
+		transform: scale(0);
+		opacity: 0.5;
+		transform: perspective(200px) translate3d(0%, 0%, 0%);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+		transform: perspective(200px) translate3d(100%, 100%, 100%);
+	}
+}
+button:focus {
+	outline: none;
+	outline: none;
+}

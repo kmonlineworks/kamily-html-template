@@ -1,0 +1,29 @@
+{
+  "name": "kamli",
+  "version": "1.0.0",
+  "description": "responsive html bootstrap web template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "responsive",
+    "html",
+    "template",
+    "bootstrap"
+  ],
+  "author": "kamran mubarik",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-purgecss": "^4.0.3",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.42.1"
+  }
+}

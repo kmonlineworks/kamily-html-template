@@ -1,0 +1,27 @@
+.testimonial {
+	background: linear-gradient($secondColor, rgba($secondColor, 0.9));
+	padding: 80px 0;
+	position: relative;
+}
+.testimonial h3 {
+	color: $forthColor;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.testimonial .carousel-item {
+	height: 230px;
+}
+.testimonial .carousel-item img {
+	width: 80px;
+	border-radius: 50%;
+	border: 3px solid rgba($forthColor, 0.4);
+	margin: 15px auto;
+}
+.testimonial .carousel-item h5 {
+	color: $firstColor;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.testimonial .carousel-item p {
+	color: $forthColor;
+}

@@ -1,0 +1,130 @@
+.landing {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.pattren {
+	width: 100%;
+	height: 945px;
+	position: absolute;
+	top: -5px;
+	left: 0;
+	background: url(../img/background.svg) no-repeat;
+	background-size: cover;
+}
+.landing svg {
+	width: 1300px;
+	height: 945px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.landing svg path {
+	stroke: transparent;
+}
+.landing svg #stop1 {
+	stop-color: $secondColor;
+	stop-opacity: 1;
+}
+.landing svg #stop2 {
+	stop-color: rgba($secondColor, 0.8);
+	stop-opacity: 1;
+}
+.landing-content {
+	padding-top: 100px;
+	position: relative;
+	z-index: 2;
+}
+.landing-content .right-side {
+	padding: 20px 10px;
+}
+.landing-content .right-side img.circle-design {
+	width: 90%;
+	float: right;
+	position: relative;
+	z-index: 2;
+	transform: rotate(-90deg);
+}
+.landing-content .right-side .mobile-img-box {
+	width: 230px;
+	height: 450px;
+	right: 170px;
+	position: absolute;
+	z-index: 2;
+	box-shadow: 0 0 10px rgba($fifthColor, 0.2);
+	border-radius: 30px;
+}
+.landing-content .right-side img.mobile-image {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.landing-content .right-side .mobile-box {
+	width: 99%;
+	height: 99%;
+	left: 1px;
+	top: 1px;
+	position: absolute;
+	border-radius: 30px;
+	background: $firstColor url(../img/mobile_preview.png) no-repeat;
+	background-blend-mode: hard-light;
+	background-size: 75%;
+	background-position: center center;
+}
+.landing-content .left-side {
+	padding: 40px 10px;
+}
+.landing-content .left-side h1 {
+	font-size: 48px;
+	color: $forthColor;
+	margin-bottom: 10px;
+}
+.landing-content .left-side h2 {
+	font-size: 24px;
+	color: $firstColor;
+	margin-bottom: 30px;
+}
+.landing-content .left-side p {
+	width: 80%;
+	font-size: 16px;
+	color: $forthColor;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.landing-content .left-side .left-side-btn {
+	height: 100px;
+	column-gap: 30px;
+	justify-content: flex-start;
+	align-items: center;
+	// margin-left: 10px;
+}
+.landing-content .left-side .left-side-btn p {
+	font-size: 20px;
+	margin: 0;
+}
+.landing-content .left-side .left-side-btn span {
+	font-size: 16px;
+}
+.landing-content .left-side .left-side-btn a {
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 400;
+	border: 1px solid $forthColor;
+	border-radius: 5px;
+	padding: 10px 25px;
+	color: $forthColor;
+	text-decoration: none;
+	transition: border 0.5s ease-in-out;
+}
+.landing-content .left-side .left-side-btn a:hover {
+	border: 1px solid $firstColor;
+}
+.landing-content .left-side .left-side-btn a i {
+	font-size: 18px;
+	color: $forthColor;
+	margin-right: 5px;
+}
+.landing-content .left-side .left-side-btn a span {
+	font-size: 14px;
+	line-height: 20px;
+}

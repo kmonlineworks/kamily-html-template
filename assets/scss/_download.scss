@@ -1,0 +1,114 @@
+/* ======Download======= */
+.download {
+	padding: 120px 0;
+}
+.download h3 {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.download h5 {
+	color: $secondColor;
+	margin-bottom: 15px;
+	text-decoration: underline;
+	text-underline-offset: 10px;
+}
+.download img.circle-design {
+	width: 90%;
+	float: right;
+	position: relative;
+	z-index: 1;
+	transform: rotate(60deg);
+}
+.download .background {
+	position: relative;
+	z-index: 2;
+}
+.download .background .mobile-img-box {
+	width: 230px;
+	height: 450px;
+	// right: 170px;
+	right: 0;
+	position: absolute;
+	z-index: 2;
+	box-shadow: 0 0 10px rgba($fifthColor, 0.2);
+	border-radius: 30px;
+}
+.download .background img.mobile-image {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.download .background .mobile-box {
+	width: 99%;
+	height: 99%;
+	left: 1px;
+	top: 1px;
+	position: absolute;
+	border-radius: 30px;
+	background: $firstColor url(../img/mobile_preview.png) no-repeat;
+	background-blend-mode: hard-light;
+	background-size: 75%;
+	background-position: center center;
+}
+.download .download-box hr {
+	width: 100%;
+	height: 3px;
+	border: none;
+	box-shadow: none;
+	border-radius: 50%;
+	background: linear-gradient(
+		to right,
+		$firstColor,
+		$thirdColor,
+		$firstColor,
+		$thirdColor
+	);
+	margin: 25px auto;
+}
+.download .download-box .download-app-btn {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 15px;
+}
+.download .download-box .google-play,
+.download .download-box .app-store {
+	// width: 180px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba($fifthColor, 0.2);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 10px;
+	padding: 9px 18px;
+}
+.download .download-box .app-store {
+	background: $fifthColor;
+	color: $forthColor;
+}
+.download .download-box .google-play {
+	background: $forthColor;
+	color: rgba($fifthColor, 0.9);
+}
+.download .download-box .app-store a {
+	line-height: 17px;
+	text-decoration: none;
+	color: $forthColor;
+}
+.download .download-box .google-play a {
+	line-height: 17px;
+	text-decoration: none;
+	color: rgba($fifthColor, 0.9);
+}
+.download .download-box .google-play p {
+	margin-bottom: 0;
+	color: rgba($fifthColor, 0.9);
+}
+.download .download-box .app-store p {
+	margin-bottom: 0;
+	color: $forthColor;
+}
+.download .download-box .app-store span,
+.download .download-box .google-play span {
+	font-size: 14px;
+}

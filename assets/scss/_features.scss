@@ -1,0 +1,71 @@
+.feature {
+	background: linear-gradient($secondColor, rgba($secondColor, 0.9));
+	padding: 80px 0;
+	position: relative;
+}
+.feature h3 {
+	color: $forthColor;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.feature h5 {
+	color: $firstColor;
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-underline-offset: 5px;
+}
+.feature .feature-item {
+	padding: 0 20px 20px 40px;
+	margin-top: -2px;
+	border-left: 2px solid $firstColor;
+	position: relative;
+}
+.feature .feature-item::before {
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50px;
+	left: -9px;
+	top: 0;
+	background: $forthColor;
+	border: 2px solid $firstColor;
+}
+.feature .feature-box ul li {
+	color: $forthColor;
+	font-family: sans-serif !important;
+	list-style-type: '◈';
+	list-style-position: outside;
+	margin-bottom: 8px;
+	padding-left: 5px;
+}
+.feature .background {
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+.feature .background img.feature-1,
+.feature .background img.feature-2,
+.feature .background img.feature-3 {
+	width: 250px;
+	height: auto;
+	object-fit: cover;
+	box-shadow: 0 0 5px rgba($fifthColor, 0.2);
+	position: absolute;
+	z-index: 3;
+	border-radius: 5px;
+	border: 3px solid rgba($forthColor, 0.2);
+}
+.feature .background img.feature-1 {
+	top: 5%;
+	left: 0px;
+}
+.feature .background img.feature-2 {
+	top: 50%;
+	right: 40px;
+	transform: translateY(-50%);
+}
+.feature .background img.feature-3 {
+	bottom: 5%;
+	left: 0px;
+}

@@ -1,0 +1,18 @@
+// custom css styles
+@import 'variables';
+@import 'global';
+@import 'preloader';
+@import 'navbar';
+@import 'landing';
+@import 'about';
+@import 'services';
+@import 'download';
+@import 'features';
+@import 'faq';
+@import 'testimonial';
+@import 'contact';
+@import 'footer';
+@import 'media';
+
+// Bootstrap Styles
+@import 'node_modules/bootstrap/scss/bootstrap';
