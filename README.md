@@ -17,7 +17,7 @@
 <td>Bootstrap 5+</td>
 <td>Mixed Columns</td>
 <td>Dark Blue, Orange, Yellow, White, Gray</td>
-<td>HTML, CSS, javascript</td>
+<td>Chrome, Firefox, MS Edge etc.</td>
 </tr>
 </tbody>
 </table>
